@@ -1,0 +1,35 @@
+.menu {
+    background-color: rgb(153, 197, 248);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .menu-item {
+    margin: 5px 0;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu img {
+    width: 30%;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .menu-item img:hover {
+    transform: scale(1.1) rotate(7deg);
+  }
+  
+  .menu-item p {
+    margin-top: -10px;
+    font-size: 14px;
+    color:rgb(250, 241, 176); 
+    font-weight: bold;
+  }
