@@ -33,3 +33,91 @@
     color:rgb(250, 241, 176); 
     font-weight: bold;
   }
+
+
+
+  .student {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 200px;
+    height: 300px;
+}
+
+.student:hover {
+    transform: translateY(-5px) scale(1.05);
+}
+
+.student img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.student h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.student p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.links {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links input {
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.box {
+    position: relative;
+    color: #fff;
+    border-radius: 3px;
+    opacity: 0,2;
+}
+
+
+   
+.box::after {
+    filter: blur(50px);
+    opacity: 0,2;
+   
+}
+
+
+@keyframes border {
+    0%, 100% {
+        background-position: 0 0;
+        opacity: 0.3;
+    }
+
+    50% {
+        background-position: 300% 300%;
+        opacity: 0.9;
+    }
+}
+
